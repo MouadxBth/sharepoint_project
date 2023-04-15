@@ -1,0 +1,19 @@
+{
+  "name": "sharepoint-tasks",
+  "version": "1.0.0",
+  "description": "sharepoint management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "author": "Mouad",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "jsdom": "^21.1.1",
+    "node-fetch": "^3.3.1",
+    "node-sp-auth": "^3.0.7",
+    "sharepointplus": "^6.2.0"
+  }
+}
